@@ -972,6 +972,26 @@
               "deprecated": false
             },
             {
+              "name": "Breach House",
+              "type": "url",
+              "url": "https://breach.house/",
+              "description": "Open, free search of ransomware leaks, stealer logs, traditional breaches and leads, by company, domain or email.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Ransomware victim lookups, stealer log, breach and lead checks",
+              "input": "Company name, domain, or email address",
+              "output": "Ransomware leak-site posts, stealer logs, data breaches and leads, with the group or source and the date of each record",
+              "opsec": "passive",
+              "opsecNote": "Searches an index of ransomware leak sites, stealer logs, breach data and leads. Target is not notified of lookups.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Vigilante.pw",
               "type": "url",
               "url": "https://www.vigilante.pw/",
