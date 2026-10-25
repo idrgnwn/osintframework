@@ -211,6 +211,26 @@
               "deprecated": false
             },
             {
+              "name": "Maigret (T)",
+              "type": "url",
+              "url": "https://github.com/soxoj/maigret",
+              "description": "Python CLI tool that collects a dossier on a person by username from 5,000+ sites. Extracts extra usernames, IDs and links from found profiles and searches them recursively. Exports HTML, PDF, XMind, JSON and CSV reports.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Username enumeration with recursive pivoting on IDs found in profiles",
+              "input": "Username(s)",
+              "output": "Found profiles with extracted account data, plus HTML/PDF/XMind/JSON/CSV reports",
+              "opsec": "active",
+              "opsecNote": "Directly queries each target site to check username existence; supports HTTP/SOCKS proxies and Tor/I2P via --proxy and --tor-proxy.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Names Directory",
               "type": "url",
               "url": "https://namesdir.com/",
