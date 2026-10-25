@@ -12417,6 +12417,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "AllCarHistory - Copart/IAAI auction history by VIN",
+              "type": "url",
+              "url": "https://allcarhistory.com/",
+              "description": "Free archive of US salvage auction lots (Copart, IAAI) searchable by VIN or lot number, with the listing photos kept after the auction removes them, damage, odometer and sale location.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Checking whether a US vehicle went through a salvage auction and what it looked like there",
+              "input": "17-character VIN or Copart/IAAI lot number",
+              "output": "Auction record: date, yard, damage, odometer, keys, photos, NHTSA decode",
+              "opsec": "passive",
+              "opsecNote": "Public website; no account needed.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
