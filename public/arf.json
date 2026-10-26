@@ -6734,6 +6734,26 @@
                   "name": "Forensically",
                   "type": "url",
                   "url": "https://29a.ch/photo-forensics/"
+                },
+                {
+                  "name": "Jura Trace (T)",
+                  "type": "url",
+                  "url": "https://juralabs.org/jura-trace",
+                  "description": "Free, open-source desktop app that checks images for signs of editing and AI generation and reads Content Credentials, on your own computer.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Checking a downloaded image for editing, AI generation and C2PA Content Credentials without uploading it",
+                  "input": "Image file (JPEG, PNG, TIFF, WebP, HEIC, AVIF) or image URL",
+                  "output": "Trust score with per-check results (error level analysis, noise, copy-move, JPEG ghost, AI-generation signs) and Content Credentials details",
+                  "opsec": "passive",
+                  "opsecNote": "Checks run locally; images are not uploaded. Checking by URL fetches that address from your machine.",
+                  "localInstall": true,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": true,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
