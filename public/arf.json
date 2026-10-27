@@ -18155,6 +18155,26 @@
               "deprecated": false
             },
             {
+              "name": "Iris",
+              "type": "url",
+              "url": "https://iriscan.app/",
+              "description": "Follows funds through mixers and privacy pools (Privacy Cash, Cloak, Umbra, Tornado Cash, Railgun, Privacy Pools), CoinJoins and instant swaps (SideShift, FixedFloat, ChangeNOW), matching deposits to withdrawals by timing, amount and the services' own records, with a confidence score and the anonymity set for each match.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Following stolen or laundered funds to the other side of a mixer, privacy pool or instant swap",
+              "input": "Wallet address and the transaction that went into or came out of the mixer or swap service",
+              "output": "Likely wallets on the other side with confidence scores, anonymity set, fund-flow graph, shareable case report",
+              "opsec": "passive",
+              "opsecNote": "Reads public blockchain data only. Free traces without an account, then a free account. Results are leads, not proof. Offers an API and an MCP server.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "MetaSleuth",
               "type": "url",
               "url": "https://metasleuth.io/",
